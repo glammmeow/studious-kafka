@@ -35,10 +35,10 @@
             //                    |     |     |     |   |     |     |     |
 
             bindings = <
-&kp TAB    &trans      &trans  &trans          &trans  &trans           &trans  &trans          &kp UP_ARROW    &trans           &trans             &kp BSPC
-&kp LALT   &kp ESCAPE  &trans  &trans          &trans  &trans           &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans             &trans
-&kp LSHFT  &trans      &trans  &trans          &trans  &trans           &trans  &trans          &trans          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE
-                               &trans          &trans  &trans           &trans  &trans          &trans
+&kp TAB    &kp Y       &kp U   &kp I           &kp O   &kp P            &trans  &trans          &kp UP_ARROW    &trans           &trans             &kp BSPC
+&kp LALT   &kp H       &kp J   &kp K           &kp L   &kp SEMI         &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans             &trans
+&kp LSHFT  &kp N       &kp M   &kp COMMA       &kp DOT &kp FSLH         &trans  &trans          &trans          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE
+                               &trans          &trans  &trans           &kp ESCAPE  &trans          &trans
             >;
         };
 
